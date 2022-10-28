@@ -25,3 +25,10 @@ const timer = new Timer(durationInput, startButton, pauseButton, {
         console.log('Timer completed!')
     }
 })
+
+startButton.addEventListener("click",function() {
+    setTimeout(function(){
+        window.location.reload();
+    },3300)
+    
+})
